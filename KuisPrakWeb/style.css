@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: url(x.jpg);
+    object-fit: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 100%;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px -1px 15px -5px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 10px -1px 15px -5px rgba(0,0,0,0.37);
+    -moz-box-shadow: 10px -1px 15px -5px rgba(0,0,0,0.37);
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px -1px 15px -5px rgba(0,0,0,0.37);
+    -webkit-box-shadow: 10px -1px 15px -5px rgba(0,0,0,0.37);
+    -moz-box-shadow: 10px -1px 15px -5px rgba(0,0,0,0.37);
+}
+
+.box2 h1 {
+    padding: 10px 10px;
+    color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.header p {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: whitesmoke;
+}
+
+.linklist ul li {
+    list-style-type: none;
+    padding: 30px;
+}
+
+.list {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    width: 250px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.2s ease;
+}
+
+.list:hover {
+    background-color: #7d7d7d;
+}
+
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.time {
+    background-color: #00c8ff;
+}
+
+.hari {
+    background-color: #a5a5a5;
+}
+
+footer {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.2s ease;
+}
+
+.button:hover {
+    background-color: #7d7d7d;
+}
+
+.jadname {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
